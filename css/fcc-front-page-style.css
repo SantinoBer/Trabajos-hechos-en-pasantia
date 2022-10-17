@@ -1,0 +1,70 @@
+/*
+Usa todo lo que sabes de CSS para replicar la portada de FreeCodeCamp
+https://www.freecodecamp.org/
+*/
+
+body {
+	background-color: lightgrey;
+}
+
+/* main */
+main {
+	font-family: sans-serif;
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* contenido */
+.contenido h1,
+.contenido h2,
+.contenido h3 {
+	font-size: 35px;
+}
+
+.contenido h1::first-letter,
+.contenido h2::first-letter,
+.contenido h3::first-letter {
+	text-decoration: underline;
+}
+
+/* iconos */
+.iconos p {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.iconos svg {
+	width: 64px;
+	margin-right: 74px;
+}
+
+.iconos svg:last-child {
+	margin-right: 0;
+}
+
+/* resto */
+.resto {
+	margin-top: 24px;
+}
+
+.resto button {
+	font-family: monospace;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	background-color: yellow;
+	border: 3px solid orange;
+	margin-bottom: 24px;
+}
+
+.resto button:hover {
+	background-color: orange;
+}
+
+.resto img {
+	width: 100%;
+}
+
+.resto h4 {
+	text-align: center;
+}
